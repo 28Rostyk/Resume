@@ -1,5 +1,8 @@
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
   background-color: #f5f7fa;
 }
 
@@ -39,32 +42,25 @@ ol {
 
 /* About Styles */
 .about {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .about-position {
   font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
   line-height: 17px;
   color: #fb6d3a;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .about-name {
   font-style: normal;
-  font-weight: bold;
-  font-size: 45px;
   line-height: 55px;
   color: #000000;
   margin-bottom: 25px;
 }
 
 .about-description {
-  font-family: Montserrat;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
   line-height: 24px;
   color: #595959;
   width: 500px;
@@ -72,14 +68,13 @@ ol {
 
 /* Project Styles */
 .projects {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .title {
   font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
+  font-size: 16px;
+  line-height: 22px;
   color: #000;
   margin-bottom: 10px;
 }
@@ -91,16 +86,12 @@ ol {
 
 .projects-item {
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
   line-height: 24px;
   color: #000;
 }
 
 .project-description {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
   line-height: 24px;
   color: #595959;
 }
@@ -108,60 +99,40 @@ ol {
 .project,
 .project-link {
   font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
   line-height: 24px;
   color: #000;
 }
 
-/* .project-link {
-  margin-left: 10px;
-} */
-
 .project-bracket {
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
   line-height: 24px;
   color: #000;
 }
 
 /* Work Styles */
 .work {
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 
 .work-position {
   font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
   color: #000;
   margin-bottom: 10px;
 }
 
 .organization {
   font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
   color: #fb6d3a;
 }
 
 .period {
   font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  color: #a8a8a8;
-  margin-bottom: 10px;
+  color: #595959;
 }
 
 .line {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
   color: #000;
 }
 
@@ -172,31 +143,30 @@ ol {
 
 .work-list-item {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
   color: #595959;
 }
 
 /* Education Styles */
 .education-container {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .institution {
   font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
   color: #fb6d3a;
   margin-bottom: 10px;
 }
 
 .profession {
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.degree {
+  font-style: normal;
   color: #000;
   margin-bottom: 10px;
 }
@@ -216,9 +186,8 @@ ol {
 .sidebar-title {
   color: #fff;
   font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
+  font-size: 16px;
+  line-height: 22px;
   margin-bottom: 10px;
 }
 
@@ -227,17 +196,13 @@ ol {
 .soft-skills,
 .languages {
   padding-left: 40px;
-}
-
-.contacts {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .contact-type {
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
+  /* font-size: 14px; */
+  /* line-height: 24px; */
   color: #fff;
   margin-right: 10px;
 }
@@ -245,15 +210,12 @@ ol {
 .contact-link {
   display: block;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #575f6b;
+  color: #fff;
 }
 
 .contact-location {
   margin-top: 10px;
-  color: #575f6b;
+  color: #fff;
 }
 
 .tech-skills-list {
@@ -269,9 +231,6 @@ ol {
 .tech-skills-text {
   color: #fff;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
 }
 
 .soft-skills-list {
@@ -287,9 +246,6 @@ ol {
 .soft-skills-text {
   color: #fff;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
 }
 
 .languages-list {
@@ -305,7 +261,4 @@ ol {
 .languages-text {
   color: #fff;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
 }
